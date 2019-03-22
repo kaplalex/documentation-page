@@ -1,3 +1,53 @@
 body{
+	background-color: white;
+}
+
+/*div#main*/
+#main-doc{
+	margin-left: 200px;
+	padding:20px;
+}
+
+/*indent content a little*/
+p,li{
+	margin-left: 20px;
+}
+
+
+code{
+	margin-left: 50px;
+}
+
+
+
+
+
+
+
+/*nav #navbar */
+#navbar{
+	position: fixed;
+	left:0;
+	top:0;
 	background-color: gainsboro;
+	width: 200px;
+	height: 100%;
+}
+
+h2{
+	height:15%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+/*nabar links #links*/
+#links{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height:60%;
+	margin-bottom: 10%;
+	overflow: scroll;
 }
