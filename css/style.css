@@ -72,7 +72,7 @@ code{
 	border-right: solid black .25em;
 }
 
-h2{
+#navbar header{
 	height:15%;
 	margin-top: 10%;
 	margin-bottom: 5%;
@@ -118,10 +118,16 @@ a{
 		padding-right:20%;
 	}
 
-	h2{
+	#navbar header{
 		width:100%;
 		height:40%;
 		margin: 0 auto;
+		margin-top:0;
+		margin-bottom:0;
+		padding-top:2%;
+	}
+	h2{
+		margin:0 auto;
 	}
 	#navbar{
 		position: absolute;
