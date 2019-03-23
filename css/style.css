@@ -14,9 +14,46 @@ p,li{
 }
 
 
+
+/*format code nice and pretty*/
 code{
 	margin-left: 50px;
+	background-color: #303030;
+	color: white;
+	width:80%;
+	height:2em;
+	display:inline-block;
+	padding:2em;
 }
+/*and spans*/
+.math{
+	color: #50BFE6;
+}
+.put{
+	color:#FF355E;
+}
+.answer{
+	color: #66FF66;
+}
+.run{
+	color: #FF6EFF;
+}
+.function{
+	color:#CCFF00;
+}
+.param{
+	color:#FF9933;
+}
+.username{
+	color: gainsboro;
+}
+.status{
+	color:#FD5B78;
+}
+.enlightened{
+	color: #FFFF66;
+}
+
 
 
 
@@ -32,6 +69,7 @@ code{
 	background-color: gainsboro;
 	width: 200px;
 	height: 100%;
+	border-right: solid black .25em;
 }
 
 h2{
@@ -50,4 +88,50 @@ h2{
 	height:60%;
 	margin-bottom: 10%;
 	overflow: scroll;
+}
+a{
+	padding-top:5%;
+	padding-bottom: 5%;
+	text-decoration: none;
+	color: black;
+	height:20%;
+	text-align: center;
+	justify-content: space-between;
+	vertical-align: middle;
+}
+#links :hover{
+	background-color: #C8C8C8;
+}
+
+
+
+/*small display settings*/
+@media (max-width: 500px) {
+	#main-doc{
+		margin: 0 auto;
+		padding-top:100px;
+	}
+
+	h2{
+		width:100%;
+		height:40%;
+		margin: 0 auto;
+	}
+	#navbar{
+		position: absolute;
+		top:0;
+		margin: 0 auto;
+		height:100px;
+		width:100%;
+		margin-bottom:0%;
+	}
+	#links{
+		text-align: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		height:50%;
+		margin:0 auto;
+		overflow: scroll;
+}
 }
